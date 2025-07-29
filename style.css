@@ -5,36 +5,26 @@
  }
  /* header */
 /* Media Query for Mobile Phones */
-@media (max-width: 767.98px) {
+ @media (max-width: 767.98px) {
 
     #home {
-        height: 75vh; 
+        height: 75vh !important; 
                     
     }
       body {
-        font-size: 15px; 
+        font-size: 16px !important;
                         
     }
 
-   
-    .content-bakery h1 {
-        font-size: 1.8rem; 
-    }
-
-    .content-bakery p {
-        font-size: 1rem; 
-    }
-
-    
     .btns {
-        padding: 10px 15px; 
-        font-size: 14px; 
+        padding: 10px 15px !important;
+        font-size: 14px !important;
     }
-}
+} 
 .home-content{
  background-image: url(./image/drew-coffman-1872.jpg);
  background-size: cover;
- background-position: 100% 100%;
+ background-position: center center;
  height: 100vh;
  position: relative;
 
@@ -43,7 +33,7 @@
  background-color: rgba(0, 0, 0, 0.2);
  position: absolute;
  inset: 0;
-}
+} 
  body{
     font-size: 19px;
     font-family: 'Alegreya Sans', sans-serif;
