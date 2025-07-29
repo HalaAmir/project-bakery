@@ -1,0 +1,193 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ /* header */
+
+.home-content{
+ background-image: url(./image/drew-coffman-1872.jpg);
+ background-size: 100% 100%;
+ height: 100vh;
+ position: relative;
+
+ }
+.layerhome{
+ background-color: rgba(0, 0, 0, 0.2);
+ position: absolute;
+ inset: 0;
+}
+ body{
+    font-size: 19px;
+    font-family: 'Alegreya Sans', sans-serif;
+ }
+
+ img{
+    width: 5em;
+ }
+ .content{
+   
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 80%;
+    margin: auto;
+
+ }
+
+ .navbar{
+    z-index: 9999.9;
+    background-color: rgba(0, 0,0,0.1); 
+
+}
+
+.navbar-brand{
+    padding-left: 7rem;
+}
+.navbar-nav li{
+padding-left: 2rem;
+}
+
+.content-bakery{
+    color: #fff;
+    text-align: center;
+     margin-top: 15rem;
+ }
+ h1{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 2rem 0;
+ }
+ p{
+    font-size: 1.3rem;
+ }
+ .btn1{
+    background-color: #8e7754;
+    border-width: 0;
+ }
+ .btn2{
+    background-color: transparent;
+    border: 2px solid white;
+ }
+ .btns{
+    padding: 17px;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    margin: 20px 5px;
+ }
+ .btns:hover{
+    background-color: #fff;
+    color: black;
+ }
+/* section about */
+ #about{
+    margin-top:3rem;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+ }
+
+ .icons img{
+    width: 3rem;
+    
+ }
+ .icons{
+display: flex;
+padding-bottom: 0.8rem;
+padding-top: 0.2rem;
+ }
+ .icons p{
+    padding-left: 10px;
+ }
+
+
+ /* section ouroffer */
+ #OurOffer{
+padding-top: 4rem;
+padding-bottom: 4rem;
+ background-color: #f8f8f8;
+ }
+
+.chef-contnt h3{
+   padding-top: 5rem;
+}
+
+/*section galery */
+#galery{
+   padding-top: 2rem;
+   padding-bottom: 4rem;
+}
+
+.cardour h4{
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+}
+
+.cardour h4,p{
+   text-align: center;
+}
+/* section Blog */
+
+#Blog{
+     padding-top: 6rem;
+   padding-bottom: 5rem;
+    background-color: #f8f8f8;
+}
+
+.iconsblog img{
+    width: 2rem;
+    
+ }
+.iconsblog{
+display: flex;
+padding-bottom: 0.8rem;
+padding-top: 0.2rem;
+ }
+
+
+
+ /* foteer */
+
+ .content-contact{
+    background-color: #403d38;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+     
+ }
+ .contact li i {
+font-size: 0.8rem ;
+
+ }
+
+ .layer{
+    background-image: url(./image/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+ }
+ .layer img{
+    width: 20px;
+ }
+
+
+ .media{
+    background-color: #353330;
+
+    padding-top: 3rem;
+  
+   
+ }
+ .media-content{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    
+ }
+ .media img{
+width: 50%;
+ }
+
+ .icon-media img{
+width: 40px;
+padding-top: 15px;
+ }
